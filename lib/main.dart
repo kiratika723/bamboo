@@ -1,18 +1,16 @@
-
 import 'package:flutter/material.dart';
-import 'package:mytestapp/product/product_list_screen.dart';
+import 'traffic_light_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(TrafficLightApp());
 }
 
-class MyApp extends StatelessWidget {
+class TrafficLightApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.purple),
-      home: ProductListScreen(),
+      home: TrafficLightScreen(),
     );
   }
 }
